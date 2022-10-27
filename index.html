@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./js/script.js">
+
+
+</head>
+<body>
+<main id="main">
+    <div class="container">
+        <div class="main">
+            <div class="main__sidebar">
+                <div class="main__sidebar--menu">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="#"></a></li>
+                            <li><a class="menu__item" href="#"></a></li>
+                            <li><a class="menu__item" href="#"></a></li>
+                            <li><a class="menu__item" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <img src="./img/logo.svg" alt="gim">
+                    <div class="main__sidebar--menu--icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </div>
+                    <div class="main__sidebar--menu--icon">
+                        <ion-icon name="pie-chart-outline"></ion-icon>
+                    </div>
+                    <div class="main__sidebar--menu--icon">
+                        <ion-icon name="bag-outline"></ion-icon>
+                    </div>
+                    <div class="main__sidebar--menu--icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </div>
+                    <a href="#">
+                        <ion-icon name="exit-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div id="header">
+                <div class="main__header">
+                    <div class="main__header--icon">
+                        <a href="#">
+                            <ion-icon class="red" name="arrow-back-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <a href="./pagain.html">
+                        <h5>Home</h5>
+                    </a>
+
+                    <div class="main__header--search">
+                        <input type="search" placeholder="search">
+                        <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                        </input>
+                        <a href="#">
+                            <ion-icon name="notifications-outline"></ion-icon>
+                        </a>
+
+                        <img src="./img/avatar.svg" alt="img">
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="header__bottom">
+                    <div class="header__bottom--one" data-aos="flip-left">
+                        <div class="header__bottom--one__text">
+                            <h6>ETHEREUM 2.0</h6>
+                            <h4>Your Gateway <br>
+                                into Blockchain
+                            </h4>
+
+                            <p> is a blockchain platform. <br>
+                                We make blockchain accessible.</p>
+                            <button>
+                                Learn More.
+                            </button>
+                            <div class="about--modal">
+                                <div class="about--modal__block">
+                                    <div class="about--modal__block--square">
+                                        <h1 class="about--modal__block--square__close">X</h1>
+                                        <div class="about--modal__block--square__close--search">
+                                            <label>
+                                                <input type="text" placeholder="Name...">
+                                                <input type="text" placeholder="Username">
+                                                <input type="password" placeholder="Password">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__bottom--one__figure">
+                            <a href="#" class="img-one">
+                                <img src="./img/figure1.svg" alt="img" class="img-one__fon1">
+                                <img src="./img/figure2.svg" alt="img" class="img-one__fon2">
+                            </a>
+                            <a href="#" class="img-two">
+                                <img src="./img/figure3.svg" alt="img" class="img-two__fon3">
+                                <img src="./img/figure4.svg" alt="img" class="img-two__fon4">
+                            </a>
+                            <a href="#" class="img-three">
+                                <img src="./img/figure5.svg" alt="img" class="img-three__fon1">
+                                <img src="./img/figure6.svg" alt="img" class="img-three__fon2">
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div class="header__bottom--two" data-aos="flip-right">
+                        <div class="header__bottom--two__select">
+                            <a href="#">
+                                <select>
+
+                                    <option class="option">ETH/USD</option>
+                                    <option>РУССКИЙ</option>
+                                </select>
+                                <ion-icon class="icons" name="globe-outline"></ion-icon>
+                            </a>
+                            <div class="header__bottom--two__select--left">
+                                <a href="#">1D</a>
+                                <a href="#">1W</a>
+                                <a href="#">1M</a>
+
+
+                            </div>
+                        </div>
+
+                        <div class="header__bottom--two__ruler">
+                            <a href="#">
+                                <h5>50k</h5>
+                                <h5>40k</h5>
+                                <h5>30k</h5>
+                                <h5>20k</h5>
+                                <h5>10k</h5>
+                                <h5>0k</h5>
+                            </a>
+
+                            <div class="header__bottom--two__ruler--img">
+                                <img src="./img/ruler1.svg" alt="img">
+                                <img src="./img/ruler2.svg" alt="img" class="rulers">
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="header__title">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--four">
+                                    <img src="./img/icon3.svg" alt="img" class="img">
+                                    <div class="header__title--three__many">
+                                        <a href="#">
+                                            <h5>LTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--three__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>3612.65</h2>
+                                    <img src="./img/ruler5.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--four">
+                                    <img src="./img/icon3.svg" alt="img" class="img">
+                                    <div class="header__title--three__many">
+                                        <a href="#">
+                                            <h5>LTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--three__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>3612.65</h2>
+                                    <img src="./img/ruler5.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--four">
+                                    <img src="./img/icon3.svg" alt="img" class="img">
+                                    <div class="header__title--three__many">
+                                        <a href="#">
+                                            <h5>LTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--three__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>3612.65</h2>
+                                    <img src="./img/ruler5.svg" alt="img">
+                                </div>
+                                <div class="header__title--two">
+                                    <img src="./img/icon2.svg" alt="img" class="img">
+                                    <div class="header__title--two__many">
+                                        <a href="#">
+                                            <h5>ETH</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--two__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>3.8%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>4772.18</h2>
+                                    <img src="./img/ruler4.svg" alt="img">
+                                </div>
+                                <div class="header__title--one">
+                                    <img src="./img/icon.svg" alt="img" class="img">
+                                    <div class="header__title--one__many">
+                                        <a href="#">
+                                            <h5>BTC</h5>
+                                            <ion-icon class="right" name="arrow-back-outline"></ion-icon>
+                                            <ion-icon class="left" name="arrow-forward-outline"></ion-icon>
+                                            <h5>USD</h5>
+                                        </a>
+                                        <a href="#" class="header__title--one__many--figur">
+                                            <hr>
+                                            <ion-icon class="icons" name="arrow-up-outline"></ion-icon>
+                                            <p>6.2%</p>
+                                        </a>
+
+                                    </div>
+                                    <h2>8442.55</h2>
+                                    <img src="./img/ruler3.svg" alt="img">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="header__market">
+                    <div class="header__market--one">
+                        <a href="#">
+                            <h5>Market Overview</h5>
+                            <select>
+                                <option>
+                                    Monthly
+                                </option>
+                                <option>
+                                    Monthly
+                                </option>
+                            </select>
+                        </a>
+                        <div class="header__market--one__number">
+                            <a href="#">
+                                <h5>50k</h5>
+                                <h5>40k</h5>
+                                <h5>30k</h5>
+                                <h5>20k</h5>
+                                <h5>10k</h5>
+                                <h5>0k</h5>
+                            </a>
+                            <a href="#" class="header__market--one__number--ruler">
+                                <img src="./img/ruler6.svg" alt="img">
+
+                                <img src="./img/Ellipse.svg" alt="" class="ellipse">
+                                <hr>
+                                <img src="./img/ruler7.svg" alt="img">
+                                <img src="./img/ruler8.svg" alt="img">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="header__market--two">
+                        <h4>
+                            Quick Transfer
+                        </h4>
+                        <div class="header__market--two__img">
+                            <img src="./img/avatar2.png" alt="img">
+                            <img src="./img/avatar3.png" alt="img">
+                            <img src="./img/avatar4.svg" alt="img">
+                        </div>
+                        <div class="header__market--two__amount">
+
+                           <p>Amount:</p>
+                            <h3>3.25</h3>
+                            <hr>
+                        </div>
+                        <a href="https://youtu.be/P0IU7MuTRkY" data-fansybox>
+                            <button>
+                                Transfer Now
+                            </button>
+                        </a>
+
+                    </div>
+                    <div class="header__market--three">
+                        <h4>Market Trend</h4>
+                        <span>
+                            <p>Name</p>
+                            <p>Last Price</p>
+                            <p>24h Change</p>
+                        </span>
+                        <span>
+                            <p>BTC  Bitcoin</p>
+                            <p>$8594 </p>
+                            <p>2,540 <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02504 -1.52588e-05L11.1679 6.66665H0.882141L6.02504 -1.52588e-05Z" fill="#00B929"/>
+</svg></p>
+
+
+
+                        </span>
+                        <span>
+                            <p>BNB  BNB</p>
+                            <p>$57207</p>
+                            <p>
+                                2,304
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02501 6.66666L0.882193 -1.0093e-05L11.1679 -1.09673e-05L6.02501 6.66666Z" fill="#FF2D2E"/>
+</svg>
+
+                            </p>
+                        </span>
+                        <span>
+                            <p>ETH  Ethereum</p>
+                            <p>$71129</p>
+                            <p>1,320
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02501 6.66666L0.882193 -1.0093e-05L11.1679 -1.09673e-05L6.02501 6.66666Z" fill="#FF2D2E"/>
+</svg>
+
+                            </p>
+                        </span>
+                        <span>
+                            <p>LTC  Litecoin</p>
+                            <p>$18661</p>
+                            <p>2,140
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02504 3.05176e-05L11.1679 6.6667H0.882141L6.02504 3.05176e-05Z" fill="#00B929"/>
+</svg>
+
+                            </p>
+
+                        </span>
+                        <span>
+                            <p>ADA  Cardano</p>
+                            <p>$37166</p>
+                            <p>1,976
+<svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02504 0L11.1679 6.66667H0.882141L6.02504 0Z" fill="#00B929"/>
+</svg>
+
+                            </p>
+                        </span>
+                        <span>
+                            <p>CAKE  Pancake</p>
+                            <p>$72650</p>
+                            <p>1,903
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.02501 6.66663L0.882193 -3.91801e-05L11.1679 -4.00543e-05L6.02501 6.66663Z" fill="#FF2D2E"/>
+</svg>
+
+                            </p>
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
